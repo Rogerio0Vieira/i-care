@@ -1,6 +1,8 @@
 package main
 
 import (
+	"gorm.io/driver/postgres"
+  "gorm.io/gorm"
 	"net/http"
 	"github.com/gin-gonic/gin"
 )
